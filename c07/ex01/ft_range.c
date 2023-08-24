@@ -47,4 +47,3 @@ int	main()
 	}
 	return (0);
 }*/
-olha eu aqui de novo
