@@ -10,11 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//this was just an sketch of the resolution, i used this to explain my logic
 int	main(int argc, char **argv)
 {
-	if argv[1] < 32 || argv[1] == ' ' || argv[1] == 127
+	int i;
+	int count;
+	if (argv[1] < 32 || argv[1] == ' ' || argv[1] == 127)
               i++;
-
-	else if argv[1][i] == ALFABETO && argv[1][i + 1 ] == ' '
-
-	count++
+	else if (argv[1][i] == 'A' && argv[1][i + 1 ] == ' ')
+		count++;
+}
