@@ -3,17 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dwbessa <dwbessa@student.42.fr>            +#+  +:+       +#+        */
+/*   By: dwbessa <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/26 14:48:50 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/26 21:36:49 by dwbessa          ###   ########.fr       */
+/*   Created: 2023/08/26 22:09:08 by dwbessa           #+#    #+#             */
+/*   Updated: 2023/08/26 22:10:04 by dwbessa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #include <unistd.h>
 
-void ft_putchar(char f) 
-{ 
+void ft_putchar(char f)
+{
   write(1, &f, 1);
 }
 

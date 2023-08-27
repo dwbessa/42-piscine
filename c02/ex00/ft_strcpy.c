@@ -25,9 +25,9 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-int	main()
-{
-	char src[] = "testando121314115";
-	char dest[] = "";
-	printf("%s", ft_strcpy(dest, src));
-}
+// int	main()
+// {
+// 	char src[] = "testando121314115";
+// 	char dest[] = "";
+// 	printf("%s", ft_strcpy(dest, src));
+// }
