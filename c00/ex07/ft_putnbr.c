@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/28 09:18:12 by dbessa            #+#    #+#             */
-/*   Updated: 2023/07/28 12:20:47 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 11:17:22 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,7 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb * -1);
 	}
 	else if (nb >= 0 && nb <= 9)
-	{
 		ft_putchar(nb + '0');
-	}
 	else
 	{
 		ft_putnbr(nb / 10);

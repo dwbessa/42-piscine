@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 16:39:24 by dbessa            #+#    #+#             */
-/*   Updated: 2023/07/27 08:36:38 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:07:49 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@
 void	ft_print_alphabet(void)
 {
 	write(1, "abcdefghijklmnopqrstuvwxyz", 26);
-}	
-/*
-int	main(void)
-{
-	ft_print_alphabet();
-}*/
+}
+
+// int	main(void)
+// {
+// 	ft_print_alphabet();
+// }

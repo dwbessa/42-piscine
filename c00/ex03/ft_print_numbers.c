@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 16:39:24 by dbessa            #+#    #+#             */
-/*   Updated: 2023/07/27 08:38:25 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:08:35 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@
 void	ft_print_numbers(void)
 {
 	write(1, "0123456789", 10);
-}	
-/*
-int	main(void)
-{
-	ft_print_numbers();
-}*/
+}
+
+// int	main(void)
+// {
+// 	ft_print_numbers();
+// }
