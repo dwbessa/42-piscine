@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fibonacci.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/08 12:12:51 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/08 14:31:31 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:35:40 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-//#include <stdio.h>
 
 int	ft_fibonacci(int index)
 {
@@ -20,8 +18,8 @@ int	ft_fibonacci(int index)
 		return (index);
 	return (ft_fibonacci(index - 2) + ft_fibonacci(index - 1));
 }
-/*
-int	main()
-{
-	printf("%d", ft_fibonacci(10));
-}*/
+//#include <stdio.h>
+// int	main()
+// {
+// 	printf("%d", ft_fibonacci(10));
+// }
