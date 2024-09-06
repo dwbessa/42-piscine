@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlowcase.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 19:50:19 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/02 20:04:34 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:21:49 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 char	*ft_strlowcase(char *str)
 {
@@ -26,8 +24,9 @@ char	*ft_strlowcase(char *str)
 	return (str);
 }
 
-int	main()
-{
-	char	str[] = "oiE, tUdo Bem?";
-	printf("%s", ft_strlowcase(str));
-}
+// #include <stdio.h>
+// int	main()
+// {
+// 	char	str[] = "oiE, tUdo Bem?";
+// 	printf("%s", ft_strlowcase(str));
+// }

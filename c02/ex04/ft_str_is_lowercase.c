@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 18:33:22 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/02 18:36:30 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:20:30 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*#include <stdio.h>*/
 
 int	ft_str_is_lowercase(char *str)
 {
@@ -27,9 +26,10 @@ int	ft_str_is_lowercase(char *str)
 	}
 	return (1);
 }
-/*
-int	main()
-{
-	char	str[] = "aebcjksjdpaksl";
-	printf("%d", ft_str_is_lowercase(str));
-}*/
+
+// #include <stdio.h>
+// int	main()
+// {
+// 	char	str[] = "aebcjksjdpaksl";
+// 	printf("%d", ft_str_is_lowercase(str));
+// }

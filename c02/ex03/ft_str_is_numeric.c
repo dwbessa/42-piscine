@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 17:31:51 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/02 18:32:51 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:20:12 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*#include <stdio.h>*/
 
 int	ft_str_is_numeric(char *str)
 {
@@ -27,9 +26,10 @@ int	ft_str_is_numeric(char *str)
 	}
 	return (1);
 }
-/*
-int	main()
-{
-	char	str[] = "21975289028";
-	printf("%d", ft_str_is_numeric(str));
-}*/
+
+// #include <stdio.h>
+// int	main()
+// {
+// 	char	str[] = "21975289028";
+// 	printf("%d", ft_str_is_numeric(str));
+// }

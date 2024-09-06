@@ -3,14 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 17:22:32 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/02 17:31:27 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:19:26 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
@@ -30,10 +29,11 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	return (dest);
 }
 
-int	main(void)
-{
-	char	src[] = "testando";
-	char	dest[] = "";
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	char	src[] = "testando";
+// 	char	dest[] = "";
 
-	printf("%s", ft_strncpy(dest, src, 5));
-}
+// 	printf("%s", ft_strncpy(dest, src, 5));
+// }

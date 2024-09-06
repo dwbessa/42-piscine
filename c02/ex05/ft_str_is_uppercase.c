@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_uppercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 19:30:46 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/02 19:35:30 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:21:03 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*#include <stdio.h>*/
 
 int	ft_str_is_uppercase(char *str)
 {
@@ -27,9 +26,9 @@ int	ft_str_is_uppercase(char *str)
 	}
 	return (1);
 }
-/*
-int	main()
-{
-	char	str[] = "AAAAAAAABBBSDADKAJDAAAA";
-	printf("%d", ft_str_is_uppercase(str));
-}*/
+// #include <stdio.h>
+// int	main()
+// {
+// 	char	str[] = "AAAAAAAABBBSDADKAJDAAAA";
+// 	printf("%d", ft_str_is_uppercase(str));
+// }

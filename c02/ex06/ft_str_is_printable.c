@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_printable.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 19:36:40 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/02 19:49:36 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:21:14 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
 int	ft_str_is_printable(char *str)
 {
@@ -28,8 +27,9 @@ int	ft_str_is_printable(char *str)
 	return (1);
 }
 
-int	main()
-{
-	char	str[] = "aebcjksjdpaksl";
-	printf("%d", ft_str_is_printable(str));
-}
+// #include <stdio.h>
+// int	main()
+// {
+// 	char	str[] = "aebcjksjdpaksl";
+// 	printf("%d", ft_str_is_printable(str));
+// }

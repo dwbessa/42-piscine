@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_alpha.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 17:31:51 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/02 18:03:12 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:19:44 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*#include <stdio.h>*/
 
 int	ft_str_is_alpha(char *str)
 {
@@ -28,9 +27,10 @@ int	ft_str_is_alpha(char *str)
 	}
 	return (1);
 }
-/*
-int	main()
-{
-	char	str[] = "testando";
-	printf("%d", ft_str_is_alpha(str));
-}*/
+
+// #include <stdio.h>
+// int	main()
+// {
+// 	char	str[] = "testando";
+// 	printf("%d", ft_str_is_alpha(str));
+// }
