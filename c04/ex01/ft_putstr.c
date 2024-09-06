@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/01 12:59:02 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/02 10:30:12 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:30:38 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
-/*
-int	main(void)
-{
-	ft_putstr("teste");
-}*/
+
+// int	main(void)
+// {
+// 	ft_putstr("teste");
+// }

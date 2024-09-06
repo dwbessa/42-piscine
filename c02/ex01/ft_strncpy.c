@@ -6,10 +6,9 @@
 /*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 17:22:32 by dbessa            #+#    #+#             */
-/*   Updated: 2024/09/06 12:19:26 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:28:18 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {

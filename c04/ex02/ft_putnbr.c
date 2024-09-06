@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/28 09:18:12 by dbessa            #+#    #+#             */
-/*   Updated: 2023/07/28 12:20:47 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:31:20 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,8 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb % 10);
 	}
 }
-/*int	main(void)
-{
-	ft_putnbr(-109);
-}*/
+
+// int	main(void)
+// {
+// 	ft_putnbr(-109);
+// }

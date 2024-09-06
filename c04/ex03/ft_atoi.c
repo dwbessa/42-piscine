@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/03 13:08:10 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/03 14:26:43 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:31:45 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-//#include <stdio.h>
 
 int	ft_atoi(char *str)
 {
@@ -22,9 +20,7 @@ int	ft_atoi(char *str)
 	res = 0;
 	sign = 1;
 	while ((str[i] >= '\t' && str[i] <= '\r') || (str[i] == ' '))
-	{
 		i++;
-	}
 	while (str[i] == '-' || str[i] == '+')
 	{
 		if (str[i] == '-')
@@ -38,9 +34,10 @@ int	ft_atoi(char *str)
 	}
 	return (res * sign);
 }
-/*
-int	main()
-{
-	char	str[] = "    ---+--+1234ab567";
-	printf("%d", ft_atoi(str));
-}*/
+
+//#include <stdio.h>
+// int	main()
+// {
+// 	char	str[] = "    ---+--+1234ab567";
+// 	printf("%d", ft_atoi(str));
+// }
