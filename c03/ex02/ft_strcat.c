@@ -3,14 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/01 17:27:18 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/02 10:12:08 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:25:57 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
 
 char	*ft_strcat(char *dest, char *src)
 {
@@ -19,9 +18,7 @@ char	*ft_strcat(char *dest, char *src)
 
 	i = 0;
 	while (dest[i] != '\0')
-	{
 		i++;
-	}
 	j = 0;
 	while (src[j] != '\0')
 	{
@@ -32,10 +29,11 @@ char	*ft_strcat(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-/*
-int	main()
-{
-	char src[] = "Programa";
-	char dest[] = "Rodou o ";
-	printf("%s", ft_strcat(dest, src));
-}*/
+
+//#include <stdio.h>
+// int	main()
+// {
+// 	char src[] = "Programa";
+// 	char dest[] = "Rodou o ";
+// 	printf("%s", ft_strcat(dest, src));
+// }

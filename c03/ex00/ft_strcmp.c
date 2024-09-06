@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/01 15:46:41 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/01 17:03:28 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:25:20 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-//#include <stdio.h>
 
 int	ft_strcmp(char *s1, char *s2)
 {
@@ -21,11 +19,11 @@ int	ft_strcmp(char *s1, char *s2)
 		i++;
 	return (s1[i] - s2[i]);
 }
-/*
-int	main()
-{
-	printf("%d", ft_strcmp("Hello", "Hello1"));
-	printf("\n%d", ft_strcmp("Hello", "He"));
-	printf("\n%d", ft_strcmp("He", "Hello"));
-	printf("\n%d", ft_strcmp("Hello", "Hello"));
-}*/
+//#include <stdio.h>
+// int	main()
+// {
+// 	printf("%d", ft_strcmp("Hello", "Hello1"));
+// 	printf("\n%d", ft_strcmp("Hello", "He"));
+// 	printf("\n%d", ft_strcmp("He", "Hello"));
+// 	printf("\n%d", ft_strcmp("Hello", "Hello"));
+// }

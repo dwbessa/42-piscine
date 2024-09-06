@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/01 17:06:57 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/12 14:10:46 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:24:50 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-//#include <stdio.h>
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
@@ -27,8 +25,8 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	}
 	return (0);
 }
-/*
-int	main()
-{
-	printf ("%d", ft_strncmp("Hello", "HelloWorld", -3));
-}*/
+//#include <stdio.h>
+// int	main()
+// {
+// 	printf ("%d", ft_strncmp("Hello", "HelloWorld", -3));
+// }

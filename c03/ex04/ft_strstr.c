@@ -3,14 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbessa <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 13:59:26 by dbessa            #+#    #+#             */
-/*   Updated: 2023/08/02 14:59:13 by dbessa           ###   ########.fr       */
+/*   Updated: 2024/09/06 12:26:46 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
 
 char	*ft_strstr(char *str, char *to_find)
 {
@@ -34,10 +33,11 @@ char	*ft_strstr(char *str, char *to_find)
 	}
 	return (0);
 }
-/*
-int	main()
-{
-	char str[] = "a piscina da 42 é muito legal";
-	char find[] = "42";
-	printf("%s", ft_strstr(str, find));
-}*/
+
+//#include <stdio.h>
+// int	main()
+// {
+// 	char str[] = "a piscina da 42 é muito legal";
+// 	char find[] = "42";
+// 	printf("%s", ft_strstr(str, find));
+// }
