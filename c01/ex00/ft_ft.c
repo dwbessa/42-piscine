@@ -9,19 +9,19 @@
 /*   Updated: 2023/07/31 19:31:46 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*#include <stdio.h>*/
 
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
-/*
-int	main(void)
-{
-	int *nbr;
-	int number;
+
+//#include <stdio.h> 
+//int	main(void)
+// {
+// 	int *nbr;
+// 	int number;
 	
-	nbr = &number;
-	ft_ft(nbr);
-	printf("%d", number);
-}*/
+// 	nbr = &number;
+// 	ft_ft(nbr);
+// 	printf("%d", number);
+// }

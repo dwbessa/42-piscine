@@ -9,7 +9,7 @@
 /*   Updated: 2023/07/31 19:51:11 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*#include <stdio.h>*/
+/**/
 
 void	ft_ultimate_div_mod(int *a, int*b)
 {
@@ -21,17 +21,18 @@ void	ft_ultimate_div_mod(int *a, int*b)
 	*a = div;
 	*b = mod;
 }
-/*
-int	main(void)
-{
-	int	a;
-	int	b;
-	int	div;
-	int	mod;
+
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	int	a;
+// 	int	b;
+// 	int	div;
+// 	int	mod;
 	
-	a = 5;
-	b = 2;
+// 	a = 5;
+// 	b = 2;
 	
-	ft_ultimate_div_mod(&a, &b);
-	printf("%d | %d", a, b);
-}*/
+// 	ft_ultimate_div_mod(&a, &b);
+// 	printf("%d | %d", a, b);
+// }

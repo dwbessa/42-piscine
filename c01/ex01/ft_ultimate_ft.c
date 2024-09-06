@@ -15,29 +15,29 @@ void	ft_ultimate_ft(int	*********nbr)
 {
 	*********nbr = 42;
 }
-/*
-int	main(void)
-{
-	int	valor;
-	int	*a;
-	int	**b;
-	int	***c;
-	int	****d;
-	int	*****e;
-	int	******f;
-	int	*******g;
-	int	********h;
-	int	*********nbr;
 
-	a = &valor;
-	b = &a;
-	c = &b;
-	d = &c;
-	e = &d;
-	f = &e;
-	g = &f;
-	h = &g;
-	nbr = &h;
-	ft_ultimate_ft(nbr);
-	printf("%d", valor);
-}*/
+// int	main(void)
+// {
+// 	int	valor;
+// 	int	*a;
+// 	int	**b;
+// 	int	***c;
+// 	int	****d;
+// 	int	*****e;
+// 	int	******f;
+// 	int	*******g;
+// 	int	********h;
+// 	int	*********nbr;
+
+// 	a = &valor;
+// 	b = &a;
+// 	c = &b;
+// 	d = &c;
+// 	e = &d;
+// 	f = &e;
+// 	g = &f;
+// 	h = &g;
+// 	nbr = &h;
+// 	ft_ultimate_ft(nbr);
+// 	printf("%d", valor);
+// }

@@ -23,9 +23,9 @@ int	ft_strlen(char *str)
 	}
 	return (i);
 }
-/*
-int	main()
-{
-	char str[] = "Daniel";
-	printf("%d", ft_strlen(str));
-}*/
+
+// int	main()
+// {
+// 	char str[] = "Daniel";
+// 	printf("%d", ft_strlen(str));
+// }
