@@ -1,35 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_rev_params.c                                    :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbessa <dbessa@student.42.rio>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/06 10:37:36 by dbessa            #+#    #+#             */
-/*   Updated: 2024/09/06 12:41:03 by dbessa           ###   ########.fr       */
+/*   Created: 2024/09/06 12:54:26 by dbessa            #+#    #+#             */
+/*   Updated: 2024/09/06 13:13:25 by dbessa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <sys/stat.h>
+#include <fcntl.h>
 
-int	main(int argc, char *argv[])
+int	main(int ac, char **av)
 {
-	int	i;
-
-	if (argc > 1)
+	int		fd;
+	char	buf;
+	if (ac == 1)
 	{
-		while (argc > 1)
-		{
-			while (argv[argc - 1][i] != '\0')
-			{
-				write(1, &argv[argc - 1][i], 1);
-				i++;
-			}
-			write(1, "\n", 1);
-			i = 0;
-			argc--;
-		}
+		write(1, "File name missing.\n", 20);
+		return (0);
 	}
-	else
-		return (-1);
+	if (ac > 2)
+	{
+		write(1, "Too many arguments.\n", 21);
+		return (0);
+	}
+	fd = open(av[1], O_RDONLY);
+	if (fd == -1)
+	{
+		write(1, "Cannot read file.\n", 19);
+	}
+	while (read(fd, &buf, 1))
+		write(1, &buf, 1);
+	write(1, "\n", 1);
 }
